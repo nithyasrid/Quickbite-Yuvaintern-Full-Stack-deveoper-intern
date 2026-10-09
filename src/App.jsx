@@ -165,7 +165,7 @@ function OrderDetails({ cart, clearCart }) {
         <div className="success-mark">✓</div>
         <p className="eyebrow">THAT'S A WRAP</p>
         <h1>Your order is <em>in motion.</em></h1>
-        <p className="order-subtitle">Thanks for choosing QuickBite. This is a simulated order for the Week 2 frontend demo.</p>
+        <p className="order-subtitle">Thanks for choosing QuickBite.</p>
       </div>
       <div className="order-layout">
         <section className="order-card">
@@ -231,7 +231,7 @@ export default function App() {
         <Route path="/order" element={<OrderDetails clearCart={clearCart} cart={cart} />} />
         <Route path="*" element={<main className="section-wrap page-shell"><h1>Page not found</h1><Link to="/">Return home</Link></main>} />
       </Routes>
-      <footer className="site-footer"><Link className="footer-brand" to="/">quickbite<span>.</span></Link><p>Thoughtfully served, one bite at a time.</p><small>Week 2 frontend prototype · Demo data only</small></footer>
+      <footer className="site-footer"><Link className="footer-brand" to="/">quickbite<span>.</span></Link><p>Thoughtfully served, one bite at a time.</p></footer>
     </div>
   );
 }
