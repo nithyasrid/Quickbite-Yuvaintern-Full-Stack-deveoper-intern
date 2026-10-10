@@ -2,8 +2,6 @@
 
 **A full-stack food ordering platform designed to make ordering simpler for customers and order management easier for restaurant staff.**
 
-WireFrame ;
-<img width="1536" height="1024" alt="QuickBite_All_Wireframes" src="https://github.com/user-attachments/assets/e1268a90-222b-4de7-b4fc-d5ef6dcbb74d" />
 
 
 Frontend Demo;
